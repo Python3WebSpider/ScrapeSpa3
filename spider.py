@@ -7,8 +7,8 @@ from os.path import exists
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s: %(message)s')
 
-INDEX_URL = 'https://spa1.scrape.center/api/movie/?limit={limit}&offset={offset}'
-DETAIL_URL = 'https://spa1.scrape.center/api/movie/{id}'
+INDEX_URL = 'https://spa3.scrape.center/api/movie/?limit={limit}&offset={offset}'
+DETAIL_URL = 'https://spa3.scrape.center/api/movie/{id}'
 LIMIT = 10
 TOTAL_PAGE = 10
 RESULTS_DIR = 'results'
